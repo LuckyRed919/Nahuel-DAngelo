@@ -1,10 +1,12 @@
+import Navbar from '../Nav/Navbar';
+import estilos from './footer.module.css';
+
 const Footer = () => {
     return (
-        <footer>
-            <h5>Nahuel D'Angelo</h5>
+        <footer className={estilos.footer}>
+            <Navbar isFooter={false} />
         </footer>
+    );
+};
 
-    ) 
-}
-
-export default Footer
+export default Footer;

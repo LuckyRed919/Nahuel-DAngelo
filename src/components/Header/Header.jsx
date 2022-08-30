@@ -1,9 +1,12 @@
+import Navbar from '../Nav/Navbar';
+import estilos from './header.module.css';
+
 const Header = () => {
     return (
-            <header>
+        <header className={estilos.header}>
+            <Navbar isFooter={true} />
+        </header>
+    );
+};
 
-            </header>
-    ) 
-}
-
-export default Header
+export default Header;
